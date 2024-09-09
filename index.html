@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gemini App Tester</title>
+</head>
+
+<body>
+  <main>
+    <h1>Testing Apps w/ Google Gemini</h1>
+    <form>
+      <div class="image-picker">
+        <label class="image-choice">
+          <input type="radio" checked name="chosen-image" value="/redbus_ss1.jpg">
+          <img src="/redbus_ss1.jpg">
+        </label>
+      </div>
+      <div class="prompt-box">
+        <label>
+          <input name="prompt" placeholder="Enter instructions here" type="text"
+            value="Provide a Description for Test Case">
+        </label>
+        <button type="submit">Test</button>
+      </div>
+    </form>
+    <p class="output">-</p>
+  </main>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
